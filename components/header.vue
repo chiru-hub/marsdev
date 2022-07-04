@@ -6,7 +6,7 @@
           <img src="~/assets/logo.png" alt="" />
         </div>
         <div class="flex text-white items-center">
-          <div>Home</div>
+          <div><nuxt-link to="/">Home</nuxt-link></div>
           <div class="mx-4">Technology</div>
           <div class="mx-4"><nuxt-link to="/blogs">Blog</nuxt-link></div>
           <div class="mx-4">Portfolio</div>

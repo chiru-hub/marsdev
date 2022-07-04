@@ -30,7 +30,7 @@
             Read Below
           </button>
         </div>
-        <div class="mt-20 text-xl text-white">
+        <div class="mt-20 mb-20 text-xl text-white">
           <p class="">
             What is the biggest challenge in the startup world? We think it is
             finding the right talent. The hustle is uncalled for and does not
@@ -93,6 +93,84 @@
             this strategy stands out. They are easy to hire and already are a
             team of experts. What more would you need?
           </p>
+          <div class="mt-10">
+            <img class="w-full" src="~/assets/blog/blog-content-2.png" alt="" />
+            <p class="text-white text-center mt-4 text-lg">
+              Outsourcing solution
+            </p>
+          </div>
+          <p class="text-5xl font-semi-bold mt-8">
+            These partnerships can revolutionize your brand.
+          </p>
+          <p class="mt-16">
+            Do we need a tech founder to start a business now? Can a non-tech
+            person be a founder? Can a non-tech person start a tech startup?
+            Several questions bother us founders day and night. And since the
+            emergence of technological advances, the questions keep increasing.
+          </p>
+          <p class="mt-8">
+            The answer is simple. It is excellent if you are a tech founder, but
+            you can get going without being one too. Hiring a team to assist you
+            can seem tricky, and we can see why. But you can always hire a
+            capability instead. By capability, we mean an organization that can
+            help you solve tech issues and streamline processes without having a
+            tech team ready.
+          </p>
+          <p class="mt-8">
+            These partnerships present you with a helping hand for your tech
+            needs. And when you have excellent tech assistance, you have a
+            competitive advantage too. It is easy to get going and sustain
+            yourself in the ever-changing tech landscape. The experts are ready,
+            and for an affordable solution, MarsDevs can chip in anytime you
+            want.
+          </p>
+          <p class="text-5xl font-semi-bold mt-16">
+            Get more efficient with MarsDevs
+          </p>
+          <p class="mt-16">
+            MarsDevs helps you be more creative, try more efficient systems, and
+            play the long-term game. We know how to do it differently and still
+            be relevant. So, our collaboration can help you understand what your
+            business needs at the moment. While a tech co-founder enables you to
+            understand the processes better, it should not stop you from
+            starting.
+          </p>
+          <p class="mt-8">
+            MarsDevs is a one-stop development shop that takes care of all your
+            tech needs and makes your business more efficient. We also help you
+            with expert consultancy, so you know if you get off the track. And
+            that's not it. We have a team of dedicated experts to develop,
+            manage, and deploy applications while you focus on scaling the
+            business. We know it already sounds unbelievable. But in this list
+            of incredible truths, we would like to add one more. MarsDevs is
+            affordable too.
+          </p>
+          <p class="mt-8">
+            So, instead of waiting and worrying about what's next. Get ready
+            with your tech requirements and get on a call with us. We will
+            discuss possibilities and expertise while you present the plan. Let
+            us know about your project, and let's get going then. What do you
+            say?
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="py-20 bg-primary-gradient">
+      <div class="container">
+        <div class="">
+          <p class="text-white text-5xl text-center">
+            Subscribe to our news letter to receive latest updates!
+          </p>
+          <div class="mt-8 flex justify-center">
+            <input
+              class="rounded-l-md p-6 w-96"
+              type="email"
+              placeholder="Enter your Email"
+            />
+            <button class="color-primary px-7 rounded-r-md">
+              <img src="~/assets/blog/icon-feather-send.png" alt="" />
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -110,5 +188,17 @@ export default {};
 }
 .color-secondary {
   background: #0575e6;
+}
+
+.color-primary {
+  background-color: #021b79;
+}
+.bg-primary-gradient {
+  background: rgb(66, 90, 180);
+  background: linear-gradient(
+    180deg,
+    rgba(66, 90, 180, 1) 30%,
+    rgba(5, 117, 230, 1) 100%
+  );
 }
 </style>
